@@ -7,6 +7,7 @@
 .main {
   background-image: url("assets/images/backgroundimage.jpg");
   height: 80vh;
+  position: relative;
 }
 
 .main .box {
@@ -14,4 +15,6 @@
   width: 100%;
   opacity: 0.44;
   background-color: #000;
+  position: absolute;
+  top: 0;
 }
