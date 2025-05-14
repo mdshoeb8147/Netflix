@@ -8,6 +8,9 @@
   background-image: url("assets/images/backgroundimage.jpg");
   height: 80vh;
   position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
 }
 
 .main .box {
@@ -17,4 +20,23 @@
   background-color: #000;
   position: absolute;
   top: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 60vw;
+  margin: auto;
+  height: 62px;
+}
+
+nav img {
+  width: 114px;
+  position: relative;
+  z-index: 10;
+}
+nav button {
+  position: relative;
+  z-index: 10;
 }
